@@ -1,0 +1,90 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "title",
+        "artist",
+        "release_year",
+        "genre"
+    ],
+    "properties": {
+        "title": {
+            "type": "string",
+            "default": "",
+            "title": "The title Schema",
+            "examples": [
+                "Example Title"
+            ]
+        },
+        "artist": {
+            "type": "string",
+            "default": "",
+            "title": "The artist Schema",
+            "examples": [
+                "Example Artist"
+            ]
+        },
+        "release_year": {
+            "type": "integer",
+            "default": 0,
+            "title": "The release_year Schema",
+            "examples": [
+                1983
+            ]
+        },
+        "genre": {
+            "type": "string",
+            "default": "",
+            "title": "The genre Schema",
+            "examples": [
+                "Rock"
+            ]
+        },
+        "confirmed_genre": {
+            "type": "integer",
+            "default": 0,
+            "title": "The confirmed_genre Schema",
+            "examples": [
+                1
+            ]
+        },
+        "link": {
+            "type": "string",
+            "default": "",
+            "title": "The link Schema",
+            "examples": [
+                "https://www.google.com/search?q=test\u0026rlz=1C1CHBF_enUS973US973\u0026oq=test\u0026gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDINCAIQABiDARixAxiABDIKCAMQABixAxiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQRRhB0gEIMjkxMWoxajeoAgCwAgA\u0026sourceid=chrome\u0026ie=UTF-8"
+            ]
+        },
+        "confirmed_link": {
+            "type": "integer",
+            "default": 0,
+            "title": "The confirmed_link Schema",
+            "examples": [
+                0
+            ]
+        },
+        "lyrics": {
+            "type": "string",
+            "default": "",
+            "title": "The lyrics Schema",
+            "examples": [
+                "adfakljdf ;aklsdjf ;asdkjf a;sdkljf ka;lsdjf kasdljfak;sld jfasdkljfka;lsjd fkalsdj fkalsdjf ak;lsdj f;lkasdj f;klasdjf ;laksdjf;klajsd fklajsd;lfkj asdkljf a;ksldjf a;lksdjf ;lkasdj fklasjd fkl;asdjf ;lkasj dg;lkhasg;lkhas;dilkgh pioawej frtaisdk;jfionvioanv io niosdfn aifnv pweiof hasfdgpdfniosdjhf ioasdf asdf561asd45f 1asd546f41 asd51f as65dg46 5j45fsyhk54r56h5fsdg6 fasd5g a5sdf asd5 4sda564f as456 g65fdh  74a8 gf9a8sdf40 9asd48f 65asdF1 0ASD56F4 6ASD3 10SD/FSD FASDF AS*FADF5ASD1FA65S."
+            ]
+        }
+    },
+    "examples": [{
+        "id": 1,
+        "title": "Example Title",
+        "artist": "Example Artist",
+        "release_year": 1983,
+        "genre": "Rock",
+        "confirmed_genre": 1,
+        "link": "https://www.google.com/search?q=test\u0026rlz=1C1CHBF_enUS973US973\u0026oq=test\u0026gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDINCAIQABiDARixAxiABDIKCAMQABixAxiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQRRhB0gEIMjkxMWoxajeoAgCwAgA\u0026sourceid=chrome\u0026ie=UTF-8",
+        "confirmed_link": 0,
+        "lyrics": "adfakljdf ;aklsdjf ;asdkjf a;sdkljf ka;lsdjf kasdljfak;sld jfasdkljfka;lsjd fkalsdj fkalsdjf ak;lsdj f;lkasdj f;klasdjf ;laksdjf;klajsd fklajsd;lfkj asdkljf a;ksldjf a;lksdjf ;lkasdj fklasjd fkl;asdjf ;lkasj dg;lkhasg;lkhas;dilkgh pioawej frtaisdk;jfionvioanv io niosdfn aifnv pweiof hasfdgpdfniosdjhf ioasdf asdf561asd45f 1asd546f41 asd51f as65dg46 5j45fsyhk54r56h5fsdg6 fasd5g a5sdf asd5 4sda564f as456 g65fdh  74a8 gf9a8sdf40 9asd48f 65asdF1 0ASD56F4 6ASD3 10SD/FSD FASDF AS*FADF5ASD1FA65S."
+    }]
+}
